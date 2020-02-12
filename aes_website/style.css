@@ -1,0 +1,271 @@
+::-moz-selection {
+    background: #338FB9;
+    text-shadow: none;
+}
+
+::selection {
+    background: #338FB9;
+    text-shadow: none;
+}
+body {
+	/*background-color: #1e1c1c;*/
+	overflow: hidden;
+}
+h1, h2, h3, {
+	font-family: 'Roboto', sans-serif;
+}
+h2 {
+	font-size: 28px;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+/*Custom Bootstrap CSS*/
+.navbar {border-bottom:1px solid #fff !important;}
+.custom-navbar {
+	background-color: #00A1CB;
+	min-height: 80px;
+	opacity:.95;
+}
+
+.custom-navbar .custom-brand {
+	color: #fff;
+	margin-top: -22px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size:16px !important;
+	padding-left:0px;
+	padding-right:18px;
+	font-weight:bold !important;
+}
+
+.custom-container {
+margin-top: 10px;
+}
+.no-padding {
+	padding: 0px;
+}
+.carousel-img {
+	width: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: justify;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+	width: 40%;
+	z-index: 10;
+	color: #000;
+	left: 6%;
+	top: 18%;
+	bottom: 1%;
+	padding: 10px;
+}
+.top-margin {
+	margin-top: -20px;
+}
+.navbar {
+	border-radius: 0px;
+	border: none;
+}
+.buy-it-now-btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  text-shadow: 1px 1px 3px #000000;
+  -webkit-box-shadow: 3px 3px 3px #0a0a0a;
+  -moz-box-shadow: 3px 3px 3px #0a0a0a;
+  box-shadow: 3px 3px 3px #0a0a0a;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #669933;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 170px;
+  height: 47px;
+  border: none;
+}
+.discription-bg {
+	background-color: #eee;
+}
+.intro-contain {
+	color: #fff;
+	/*text-align: justify;*/
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.intro-img {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.how-its-works {
+	color: #fff;
+	text-align: justify;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+#features { 
+background: url(./img/paralox.png) 50% 0 repeat fixed;
+background-size: cover;
+  margin: 0 auto; 
+  width: 100%; 
+/*  max-width: 1920px; */
+  position: relative; 
+}
+.Key-features {
+	color: #fff;
+}
+.feature-margin {
+	margin-top: 15px;
+}
+
+#scrollUp {
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  padding: 10px 20px;
+  background-image:url(./img/uparrow.png);
+  text-indent: -9999;
+}
+#scrollUp:hover {
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  padding: 10px 20px;
+  background-image:url(./img/uparrowhover.png);
+  text-indent: -9999;
+}
+#pricing { 
+background:#333;
+/*background: url(./img/demo-bg.jpg) 50% 0 repeat fixed;*/
+/*background-size: cover;*/
+  margin: 0 auto; 
+  width: 100%; 
+/*  max-width: 1920px; */
+  position: relative; 
+}
+.demotext {
+	color: #fff;
+	text-align: justify;
+}
+.Key-features-ul {
+	list-style: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+.socials-list {text-align: right; margin-top: 30px; margin-bottom: 10px; color: #F3F5F8;padding-right:50px;}
+.socials-list ul {margin: 0px; padding: 0px; list-style: none;}
+.socials-list ul li {display: inline-block;padding: 2px;}
+.footer-text p { padding-top: 40px; margin-bottom: 20px;}
+/*.js div#preloader { 
+	position: fixed;
+ 	left: 0; top: 0; 
+ 	z-index: 999;
+  	width: 100%;
+   	height: 100%;
+    overflow: visible; 
+    background: #333 url(./img/loading.gif) no-repeat center center;
+    }*/
+    /* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#1e1c1c; /* change if the mask should be a color other than white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally on the screen */
+	top:50%; /* centers the loading animation vertically on the screen */
+	background-image:url(./img/loader.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+.img-center {
+	text-align: center;
+}
+.copyright-text {
+	color: #fff;
+}
+.img-center {
+	margin: 0 auto;
+	display: block;
+	padding-top:100px; 
+	padding-bottom: 10px;
+
+}
+.youtubevideo {
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+
+#howitsworks
+{	
+	/* background: url(./img/demo-bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background:#eee;
+}
+#howitsworks p,#about p
+{
+	color:#000;
+}
+#howitsworks h2,#about h2
+{
+	color:#069DCA;
+}
+
+#encrypted_section img
+{	
+	width:100%;
+}
+
+.footer{background-color: #1E1C1C;}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .navbar-brand {
+    	height: 93px;
+    }
+}
+
+
+/* bootstrap overwrite */
+.carousel-control.left,.carousel-control.right {
+    background-image: none;
+}
+.btn
+{
+	border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+}
+.navbar-right{margin-right:0;}
+/* bootstrap overwrite */
+
+.padding-top-100{padding-top:100px !important;}
+.padding-top-150{padding-top:150px !important;}
+.padding-top-50{padding-top:50px !important;}
+.padding-top-200{padding-top:200px !important;}
+
+a:focus{outline:none !important;}
+
+*{font-family:"Open Sans";}
