@@ -888,11 +888,11 @@
         </div>
 
         <?php
-            if($token == '123'){
+            if($token == 'demo'){
         ?>
         <div id="header">
             <a href="index.php?purchase_code=<?php echo $code; ?>&domain=<?php echo $domain; ?>"><img src="images/logo.png"></a>
-            <h1 class="pull-right title"></h1>
+            <h1 class="pull-right title">Visual Scraping Tool (v1.1)</h1>
         </div>
         <?php
             }
@@ -931,7 +931,7 @@
                 <div class="col-md-4 button-margin-fix">
                     <button v-on:click="showLibrary()" class="btn btn-link mini-hide"><i class="fas fa-book"></i> Template Library</button>
                     <?php
-                        if($token != '123'){
+                        if($token != 'demo'){
                     ?>
 
                     <div class="btn-group pull-right" role="group">
