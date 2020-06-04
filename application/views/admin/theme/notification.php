@@ -115,7 +115,7 @@
    -->
   
     <?php 
-      $pro_pic=base_url().'assets/images/logo.png';
+      $pro_pic=base_url().'assets/images/deepcrawllogo.svg';
     ?>
     <!-- User Account: style can be found in dropdown.less -->
     <li class="dropdown user user-menu">

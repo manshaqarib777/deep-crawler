@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title><?php echo $this->config->item('product_name')." | ".$page_title;?></title>
+    <title><?php "Web Scraper | ".$page_title;?></title>
     <?php $this->load->view('include/css_include_back');?>
 	  <?php $this->load->view('include/js_include_back');?>
     <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/favicon.png"> 	

@@ -1,5 +1,5 @@
 <?php if($this->session->userdata("user_type")=="Member") {?>
-<div class="row" style="padding:20px 10px;"">
+<div class="row" style="padding:20px 10px;">
 	<div class="col-xs-12 col-md-6">
 		<div class="info-box bg-aqua">
 			<span class="info-box-icon"><i class="fa fa-cube"></i></span>

@@ -48,6 +48,7 @@
 				<li><a data-scroll href="#features">Feature</a></li>
 				<li><a data-scroll href="#howitsworks">How It works?</a></li>
 				<li><a data-scroll href="#pricing">Pricing</a></li>
+				<li><a data-scroll href="https://scraper.piktd.com/scrapper">Scrapper</a></li>
 				<li><a href="<?php echo site_url('home/sign_up'); ?>">Sign Up</a></li>
 				<li><a target="_blank" href="<?php echo site_url('home/login_page'); ?>">Log In</a></li>
 			</ul>
@@ -170,7 +171,7 @@
 						Upload your url from text or csv file. Start scraping all url. The tool then start to scrape web pages from all url you have uploaded. 
 					</p>
 				</div>
-				<div class="col-md-3 feature-margin animated wow slideInLeft">
+				<!-- <div class="col-md-3 feature-margin animated wow slideInLeft">
 					<img src="<?php echo site_url(); ?>aes_website/img/icon/google.png" alt="Google Search">
 					<h3>
 						Google Search
@@ -187,9 +188,7 @@
 					<p>
 						Search in Bing with keyword, then select sites like facebook.com, linkedin.com, twitter.com or other sites to extract desired emails. 
 					</p>
-				</div>
-			</div>
-			<div class="row">
+				</div> -->
 				<div class="col-md-3 feature-margin animated wow slideInRight">
 					<img src="<?php echo site_url(); ?>aes_website/img/icon/whois.png" alt="Whois Search">
 					<h3>
@@ -208,18 +207,8 @@
 						Check email is valid or invalid. Bulk checking facility is available. We check email pattern and MX record for validity checking. 
 					</p>
 				</div>
-
-
-				<div class="col-md-3 feature-margin animated wow slideInRight">
-					<img src="<?php echo site_url(); ?>aes_website/img/icon/status.png" alt="Page status check">
-					<h3>
-						Page status check
-					</h3>
-					<p>
-						Check page status like , is it live or not found(404) and other 56 http responses. Bulk checking facility is available. 
-					</p>
-				</div>
-
+			</div>
+			<div class="row">
 				<div class="col-md-3 feature-margin animated wow slideInLeft">
 					<img src="<?php echo site_url(); ?>aes_website/img/icon/email_filter.png" alt="Email Filtering">
 					<h3>
@@ -230,9 +219,6 @@
 							
 					</p>
 				</div>
-				
-			</div>
-			<div class="row">
 				<div class="col-md-3 feature-margin animated wow slideInRight">
 					<img src="<?php echo site_url(); ?>aes_website/img/icon/docx.png" alt="doc / docx File Search">
 					<h3>
@@ -263,7 +249,7 @@
 					</p>
 				</div>
 
-				<div class="col-md-3 feature-margin animated wow slideInRight">
+				<!-- <div class="col-md-3 feature-margin animated wow slideInRight">
 					<img src="<?php echo site_url(); ?>aes_website/img/icon/text.png" alt="Text File Search">
 					<h3>
 						Search in Text File
@@ -271,7 +257,7 @@
 					<p>
 						Search web pages in text file. You can upload bulk text files and extract email from all text files. 
 					</p>
-				</div>
+				</div> -->
 			</div>
 			</div>
 		</div>
@@ -299,7 +285,7 @@
 
 
 
-<section id="pricing" data-type="background" data-speed="5" class="padding-top-50">
+<!-- <section id="pricing" data-type="background" data-speed="5" class="padding-top-50">
 <div class="container">
 
 		<div style="text-align:center;padding-bottom:40px;" class="col-xs-12 demotext">
@@ -325,7 +311,7 @@
                 <br><br>
 			</div>
 	</div> 
-</section>
+</section> -->
 
 
 <div class="container-fluid">

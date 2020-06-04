@@ -1160,20 +1160,20 @@ class Home extends CI_Controller
 
     public function important_feature(){
 
-        if(file_exists(APPPATH.'config/licence.txt') && file_exists(APPPATH.'core/licence.txt')){
-            $config_existing_content = file_get_contents(APPPATH.'config/licence.txt');
-            $config_decoded_content = json_decode($config_existing_content, true);
+        // if(file_exists(APPPATH.'config/licence.txt') && file_exists(APPPATH.'core/licence.txt')){
+        //     $config_existing_content = file_get_contents(APPPATH.'config/licence.txt');
+        //     $config_decoded_content = json_decode($config_existing_content, true);
 
-            $core_existing_content = file_get_contents(APPPATH.'core/licence.txt');
-            $core_decoded_content = json_decode($core_existing_content, true);
+        //     $core_existing_content = file_get_contents(APPPATH.'core/licence.txt');
+        //     $core_decoded_content = json_decode($core_existing_content, true);
 
-            if($config_decoded_content['is_active'] != md5($config_decoded_content['purchase_code']) || $core_decoded_content['is_active'] != md5(md5($core_decoded_content['purchase_code']))){
-              redirect("home/credential_check", 'Location');
-            }
+        //     if($config_decoded_content['is_active'] != md5($config_decoded_content['purchase_code']) || $core_decoded_content['is_active'] != md5(md5($core_decoded_content['purchase_code']))){
+        //       redirect("home/credential_check", 'Location');
+        //     }
 
-          } else {
-            redirect("home/credential_check", 'Location');
-        }
+        //   } else {
+        //     redirect("home/credential_check", 'Location');
+        // }
 
     }
 
@@ -1194,6 +1194,7 @@ class Home extends CI_Controller
 
         $response=$this->code_activation_check_action($purchase_code,$only_domain);
 
+
         echo $response;
 
     }
@@ -1204,7 +1205,6 @@ class Home extends CI_Controller
     public function code_activation_check_action($purchase_code,$only_domain){
 
        $url = "http://xeroneit.net/development/envato_license_activation/purchase_code_check.php?purchase_code={$purchase_code}&domain={$only_domain}&item_name=aessaas";
-
        $credentials = $this->get_general_content($url);
        $decoded_credentials = json_decode($credentials);
        if($decoded_credentials->status == 'success'){

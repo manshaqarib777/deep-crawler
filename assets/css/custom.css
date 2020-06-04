@@ -319,7 +319,7 @@ th[scope="col"] span
 }
 .background_darkblue
 {
-	background: #002240 !important;
+	background: #1a2226 !important;
 }
 .background_black
 {
@@ -544,7 +544,7 @@ th[scope="col"] span
 	/*top: 0;*/
 	/*left: 0;*/
 	width: 100%;
-	border-bottom: 3px solid #2A95BE;
+	/*border-bottom: 3px solid #2A95BE;*/
 	/*z-index: 1;*/
 	/*margin-top:0;*/
 }
