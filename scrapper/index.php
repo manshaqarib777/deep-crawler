@@ -19,7 +19,7 @@
     }
 
     if($code == 'demo-account'){
-        $token = 'demo';
+        $token = 'live';
     }else if(@$query[0]){
         $token = $query[0]['hash'];
     }else{
