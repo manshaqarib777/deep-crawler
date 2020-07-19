@@ -888,7 +888,7 @@
         </div>
 
         <?php
-            if($token == 'demo'){
+            if($token == 'live'){
         ?>
         <nav class="navbar navbar-default custom-navbar">
     <div class="custom-container">
@@ -908,7 +908,6 @@
                 <li><a data-scroll href="https://scraper.piktd.com/">Home</a></li>
                 <li><a data-scroll href="https://scraper.piktd.com/#features">Feature</a></li>
                 <li><a data-scroll href="https://scraper.piktd.com/#howitsworks">How It works?</a></li>
-                <li><a data-scroll href="https://scraper.piktd.com/#pricing">Pricing</a></li>
                 <li><a data-scroll href="https://scraper.piktd.com/scrapper">Scrapper</a></li>
                 <li><a href="https://scraper.piktd.com/home/sign_up">Sign Up</a></li>
                 <li><a target="_blank" href="https://scraper.piktd.com/home/login_page">Log In</a></li>

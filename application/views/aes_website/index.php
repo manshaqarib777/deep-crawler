@@ -47,7 +47,6 @@
 				<li><a data-scroll href="#">Home</a></li>
 				<li><a data-scroll href="#features">Feature</a></li>
 				<li><a data-scroll href="#howitsworks">How It works?</a></li>
-				<li><a data-scroll href="#pricing">Pricing</a></li>
 				<li><a data-scroll href="https://scraper.piktd.com/scrapper">Scrapper</a></li>
 				<li><a href="<?php echo site_url('home/sign_up'); ?>">Sign Up</a></li>
 				<li><a target="_blank" href="<?php echo site_url('home/login_page'); ?>">Log In</a></li>
